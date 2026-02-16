@@ -1,13 +1,16 @@
-from flask import Flask , render_templet , request
+from flask import Flask ,render_template , request
 import requests
 
 
 
-app = (__name__)
+app = Flask(__name__)
 
 @app.route("/")
 def home():
     return "this my first page"
+
+
+
 
 
 
